@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(240, 240, 240);
+}
+.navbar{
+    box-shadow: none;
+    margin: 20px;
+}
+.welcome{
+    transition: 0s;
+}
+.login_btn , .sort{
+    border: none;
+    padding: 1.5px;
+    cursor: pointer;
+    color: inherit;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+    margin: auto;
+    box-shadow: none;
+}
+.login_btn:focus, .login_btn:hover{
+    box-shadow: none;
+}
+.sort:focus, .sort:hover{
+    box-shadow: none;
+}
+.log{
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 7rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10rem;
+  margin-right: 0.5rem;
+  background: white;
+  transition: all 0.3s;
+}
+::placeholder{
+    opacity: 50%;
+}
+.logo{
+    width: 52px;
+    height: 52px;
+}
+#balance{
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+.date{
+    font-size: 0.9rem;
+    opacity: 60%;
+}
+.cur{
+    margin-left: 2.6rem;
+
+}
+.bal{
+    margin-right: 4rem;
+    font-size: 3.5rem;
+
+}
+.movement_box{
+    margin-top: 2.5rem ;
+    margin-left: 2.6rem;
+    width: 105%;
+    height: 50rem;
+    background: white;
+    max-height: 34rem;
+    overflow: scroll;
+    border-top-left-radius: 10px;
+}
+.right_section{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    width: 80%;
+    border-radius: 10px;
+    height: 9.49rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 8.5rem;
+}
+.right_section p{
+    font-weight: bold;
+}
+.transfer{
+    background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+    margin-bottom: 20px;
+}
+.loan{
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+    margin-top: 20px;
+}
+.closed{
+    margin-top: 20px;
+    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.summary{
+    margin-top: 2.7rem;
+}
+.summary_label_in{
+    margin-left: 3.4rem;
+    font-size: 0.7rem;
+
+}
+.summary_value_in{
+    margin-left: 0.3rem ;
+    font-size: 1.8rem;
+    color: #66c873;
+}
+.summary_label_out{
+    margin-left: 3rem;
+    font-size: 0.7rem;
+
+}
+.summary_value_out{
+    margin-left: 0.3rem;
+    font-size: 1.8rem;
+    color: #f5465d;
+
+}
+.summary_label_inter{
+    margin-left: 3rem;
+    font-size: 0.7rem;
+
+}
+.summary_value_inter{
+    margin-left: 0.3rem;
+    font-size: 1.8rem;
+    color: #66c873;
+
+}
+.sort{
+    font-size: 1rem; 
+    margin-left: 4.5rem;
+
+}
+.summary_label_log{
+    margin-right: 4.5rem; 
+    font-size: 0.9rem;
+}
+.right_side{
+    width: 8.5rem;
+    height: 2.2rem;
+    opacity: 50%;
+}
+.right_btn{
+    background: white;
+    height: 0.1rem;
+    width: 3rem;
+    padding-bottom: 2.5rem;
+}
+.right_side:focus{
+    opacity: 90%;
+}
+.right_form{
+    font-size: 0.84rem;
+}
+.transfer_label1{
+    margin-left: 2.4rem;
+}
+.transfer_label2{
+    margin-left: 5.8rem;
+}
+.loan_label{
+    margin-left: 2.8rem;
+}
+.close_label1{
+margin-left: 2rem;
+}
+.close_label2{
+margin-left: 4.5rem;
+}
+.movement_row{
+    padding: 2rem 3rem;
+    border-bottom: 1px solid #eee;
+}
+.movement_type{
+    border-radius: 1.1rem;
+    color: white;
+    padding: 0.24rem 0.8rem;
+    font-size: 0.6rem;
+    height: 1.3rem;
+    width: fit-content;
+    text-align: center;
+}
+.movement_type_deposit{
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+.movement_type_withdrawal{
+    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+    width: fit-content;
+}
+.movement_date{
+    font-size: 0.85rem;
+}
+.movement_value{
+    font-size: 1.1rem;
+    text-align: right;
+}
+.app{
+    opacity: 0%;
+    transition: all 1s;
+}
+.dark{
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    box-shadow: none;
+}
+.dark:focus{
+    box-shadow: none;
+    outline: none;
+}
+.dark:hover{
+    box-shadow: none;
+    outline: none;
+}
+.clock{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 2.5rem;
+    width: 14%;
+    text-align: center;
+    padding: 0.1rem 0rem;
+    font-size: 1.55rem;
+    border: solid 2px black;
+}
